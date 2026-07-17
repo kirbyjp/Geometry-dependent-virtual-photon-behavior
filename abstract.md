@@ -48,8 +48,9 @@ Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) meas
 ---
 
 ## Key hypothesis
+
 **Central claim**  
-Local boundary geometry tunes the effective transverse momentum distribution of evanescent modes; specifically, controlled variations in tilt and curvature produce measurable changes in \(\kappa(x)\) and \(k_{\perp}(x)\) that can be resolved in the microwave regime.
+Local boundary geometry tunes the effective transverse momentum distribution of evanescent modes; specifically, controlled variations in tilt and curvature produce measurable changes in $\kappa(x)$ and $k_{\perp}(x)$ that can be resolved in the microwave regime.
 
 **Supporting subclaims**  
 - Geometry can induce spatially varying tunneling times.  
