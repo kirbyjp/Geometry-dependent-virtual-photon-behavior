@@ -124,15 +124,17 @@ To further probe the interaction between boundary geometry and field confinement
 ## How to reproduce
 
 **Quick start checklist**  
-1. Assemble VNA, horn or waveguide feed, metal mirror, and secondary surface on translation stages.  
-2. Calibrate the VNA and perform background subtraction with no secondary surface.  
-3. Position the secondary surface in the near field and perform a coarse scan to locate the evanescent region.  
-4. Perform fine scans of amplitude and phase across the tilted or curved surface with the probe.  
+1. Assemble the field source/emitter, primary reflecting boundary, secondary surface, and necessary translation stages.  
+2. Establish a system baseline by performing background subtraction in the absence of the secondary surface.  
+3. Position the secondary surface in the near field and conduct a coarse scan to map the evanescent region.  
+4. Perform fine scans of amplitude and phase across the tilted or curved surface using a high-resolution field-sampling probe.  
 5. Fit local amplitude to extract $\kappa(x)$; compute $d(x)$ from phase or centroid analysis.
 
 ---
 
 ## Data and analysis
+
+**Data and analysis**
 
 **Expected outputs**  
 - Spatial maps of amplitude and phase.  
@@ -141,10 +143,11 @@ To further probe the interaction between boundary geometry and field confinement
 - Derived $k_{\perp}(x)$ maps.
 
 **Analysis recommendations**  
-- Use complex S21 data to preserve phase information.  
-- Apply windowing and averaging to reduce multipath noise.  
-- Report uncertainties from fit residuals and probe positioning error.  
-- Share raw and processed data for reproducibility.
+- Utilize complex-valued field data to preserve both amplitude and phase information.  
+- Apply signal processing techniques (e.g., windowing, averaging) to mitigate environmental noise and unwanted reflections.  
+- Propagate uncertainties from the decay fit through to the final $k_{\perp}(x)$ reconstruction to establish the confidence interval of the momentum maps.  
+- Implement a local energy and momentum balance assessment to verify that observations are consistent with conservation laws within the interaction volume.  
+- Share raw and processed data to facilitate reproducibility.
 
 **Decay constant as diagnostic for momentum**
 
