@@ -40,7 +40,7 @@ $$k_{\perp}(x) = i \kappa(x)$$
 ## Motivation
 
 **Why this project matters**  
-Mapping geometry‑dependent evanescent fields offers a practical route to test how macroscopic boundary conditions influence near‑field mode structure and off‑shell photon exchange. Positive results would establish a reproducible, low‑cost experimental analog for aspects of Casimir physics and open new avenues for controlled studies of boundary‑condition QED phenomena without requiring nanoscale fabrication, high vacuum, or cryogenics.
+Mapping geometry‑dependent evanescent fields offers a practical route to study how macroscopic boundary conditions influence near‑field mode structure and off‑shell photon exchange. Traditional Casimir experiments require nanometer‑scale separations, ultra‑flat surfaces, cryogenic stability, high vacuum, and precision force metrology, making systematic exploration of geometry effects difficult and expensive. In contrast, the present approach uses centimeter‑scale microwave wavelengths, macroscopic tilts and curvatures, and direct amplitude‑and‑phase mapping rather than force detection. By measuring how geometry modulates the local decay constant $\kappa(x)$ and the associated transverse momentum $k_{\perp}(x)$, this platform enables controlled tests of momentum redistribution under accessible laboratory conditions. Positive results would establish a reproducible, low‑cost macroscopic analog for boundary‑condition‑dependent QED phenomena and broaden experimental access to Casimir‑related physics without specialized instrumentation.
 
 **Core objective**  
 Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) measurably alters the effective momentum distribution of evanescent modes by extracting spatial maps of $\kappa(x)$, $d(x)$, and phase.
@@ -98,43 +98,37 @@ Use microwave wavelengths to create a low‑loss, easily instrumented testbed. G
 
 ---
 
-## Figures and captions
-**Figure 1** — *Composite schematic of flat, tilted, and curved interfaces overlaid with color‑coded incident and reflected beams.*  
-Caption: Composite geometry showing overlapping interfaces and color‑matched beams; lateral shifts \(d\) indicated for each geometry.
+## Geometry descriptions
 
-**Figure 2** — *Tilted interface schematic isolating evanescent penetration into the tilted surface.*  
-Caption: Tilted interface showing incident beam, reflected beam, evanescent field, and spatially varying lateral shift \(d(x)\).
+**Composite geometries**  
+The study involves three interface configurations—flat, tilted, and curved—each producing distinct evanescent‑field behavior. A flat interface provides a uniform decay profile, while a tilted interface introduces a spatial gradient in the local incidence angle. A curved interface further modifies the boundary conditions by varying curvature along the surface, creating position‑dependent changes in the evanescent penetration depth and lateral shift.
 
-**Figure 3** — *Example measurement map.*  
-Caption: Simulated or example experimental map of amplitude and extracted \(\kappa(x)\) across a tilted surface.
+**Tilted interface behavior**  
+A tilted secondary surface placed in the near field experiences a spatially varying evanescent amplitude and phase. As the local angle changes along the tilt, the lateral Goos–Hänchen shift $d(x)$ varies correspondingly. This configuration highlights how geometry directly influences the redistribution of momentum and the effective decay constant $\kappa(x)$.
 
-> **Figure files:** include high‑resolution PNG or PDF figures in `figures/` and reference them in the manuscript.
+**Example measurement pattern**  
+When scanning amplitude and phase across a tilted or curved surface, the resulting data typically show a non‑uniform decay profile. By fitting the measured amplitude to $E(x) = E_0 e^{-\kappa(x)x}$ at each position, one obtains a spatial map of $\kappa(x)$. These maps reveal how geometric variations modulate the evanescent field and the effective transverse momentum $k_{\perp}(x)$.
 
 ---
 
 ## How to reproduce
-**Quick start checklist**  
-1. Assemble VNA, horn/waveguide feed, metal mirror, and secondary surface on translation stages.  
-2. Calibrate VNA and perform background subtraction with no secondary surface.  
-3. Position secondary surface in the near field and perform a coarse scan to locate the evanescent region.  
-4. Perform fine scans of amplitude and phase across the tilted or curved surface with the probe.  
-5. Fit local amplitude to extract \(\kappa(x)\); compute \(d(x)\) from phase or centroid analysis.
 
-**Repository contents recommended**  
-- `manuscript.tex` or `manuscript.md` (LaTeX/Markdown source).  
-- `figures/` (schematic and measurement images).  
-- `data/` (example raw VNA sweeps and processed maps).  
-- `analysis/` (Python scripts to fit \(\kappa(x)\) and compute \(d(x)\)).  
-- `README.md` (this file) and `LICENSE`.
+**Quick start checklist**  
+1. Assemble VNA, horn or waveguide feed, metal mirror, and secondary surface on translation stages.  
+2. Calibrate the VNA and perform background subtraction with no secondary surface.  
+3. Position the secondary surface in the near field and perform a coarse scan to locate the evanescent region.  
+4. Perform fine scans of amplitude and phase across the tilted or curved surface with the probe.  
+5. Fit local amplitude to extract $\kappa(x)$; compute $d(x)$ from phase or centroid analysis.
 
 ---
 
 ## Data and analysis
+
 **Expected outputs**  
 - Spatial maps of amplitude and phase.  
-- Local fits producing \(\kappa(x)\) vs position.  
-- Plots of \(d(x)\) and comparison to geometric models.  
-- Derived \(k_{\perp}(x)\) maps.
+- Local fits producing $\kappa(x)$ as a function of position.  
+- Plots of $d(x)$ and comparison to geometric models.  
+- Derived $k_{\perp}(x)$ maps.
 
 **Analysis recommendations**  
 - Use complex S21 data to preserve phase information.  
@@ -149,22 +143,17 @@ Caption: Simulated or example experimental map of amplitude and extracted \(\kap
 This project is intentionally low cost and accessible. Contributions of experimental data, alternative geometries, and theoretical modeling are welcome. If you run experiments, please upload processed maps and a short methods note to the repository so others can compare results.
 
 **Contact and citation**  
-If you use this work, cite as: J. [LastName], “Geometry‑dependent virtual photon behavior,” 2026. Include arXiv or DOI when available.
+If you use this work, cite as: John Kirby, “Geometry‑dependent virtual photon behavior,” 2026. Include arXiv or DOI when available.
 
 ---
 
 ## License and metadata
+
 **License**  
 MIT License recommended.
 
 **Keywords**  
-evanescent, Goos‑Hanchen, Casimir‑analog, microwave, near‑field, virtual‑photon, boundary‑conditions
+evanescent, Goos–Hänchen, Casimir‑analog, microwave, near‑field, virtual‑photon, boundary‑conditions
 
 ---
-
-## Suggested next steps
-- Add `manuscript.tex` (or `manuscript.md`) with the full LaTeX skeleton and sections.  
-- Add `figures/` with the composite and tilted schematics.  
-- Add `analysis/` with example Python scripts to fit \(\kappa(x)\) and compute \(d(x)\).  
-- Prepare an arXiv submission using the manuscript file and figures.
 
