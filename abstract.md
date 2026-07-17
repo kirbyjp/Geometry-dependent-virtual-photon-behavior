@@ -104,7 +104,9 @@ Use microwave wavelengths to create a low‑loss, easily instrumented testbed. G
 The study involves three interface configurations—flat, tilted, and curved—each producing distinct evanescent‑field behavior. A flat interface provides a uniform decay profile, while a tilted interface introduces a spatial gradient in the local incidence angle. A curved interface further modifies the boundary conditions by varying curvature along the surface, creating position‑dependent changes in the evanescent penetration depth and lateral shift.
 
 **Tilted interface behavior**  
-A tilted secondary surface placed in the near field experiences a spatially varying evanescent amplitude and phase. As the local angle changes along the tilt, the lateral Goos–Hänchen shift $d(x)$ varies correspondingly. This configuration highlights how geometry directly influences the redistribution of momentum and the effective decay constant $\kappa(x)$.
+A tilted secondary surface placed in the near field (see Fig. 1) experiences a spatially varying evanescent amplitude and phase. As the local angle changes along the tilt, the lateral Goos–Hänchen shift $d(x)$ varies correspondingly. This configuration highlights how geometry directly influences the redistribution of momentum and the effective decay constant $\kappa(x)$.
+
+![Fig 1: Experimental configuration for evanescent mapping](./images/fig1.png)
 
 **Example measurement pattern**  
 When scanning amplitude and phase across a tilted or curved surface, the resulting data typically show a non‑uniform decay profile. By fitting the measured amplitude to $E(x) = E_0 e^{-\kappa(x)x}$ at each position, one obtains a spatial map of $\kappa(x)$. These maps reveal how geometric variations modulate the evanescent field and the effective transverse momentum $k_{\perp}(x)$.
