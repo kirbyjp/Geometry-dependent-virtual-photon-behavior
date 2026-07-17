@@ -136,7 +136,15 @@ When scanning amplitude and phase across a tilted or curved surface, the resulti
 - Report uncertainties from fit residuals and probe positioning error.  
 - Share raw and processed data for reproducibility.
 
+**Decay constant as diagnostic for momentum**
+
+Fit $E(x)$ locally to extract $\kappa(x)$, which serves as the experimental proxy for the effective transverse momentum $k_{\perp}(x)$. This framing keeps $\kappa(x)$ central as the measurable quantity while emphasizing that its role is diagnostic rather than the final objective, aligning the measurement strategy with the broader goal of characterizing geometry‑driven momentum redistribution.
+
 ---
+
+**Conservation and energy flow**
+
+Geometry‑induced momentum redistribution necessitates a detailed account of how energy and momentum are conserved within the near field. Rather than suggesting a violation, this redistribution underscores the need to map the exchange of energy between the evanescent modes and the reflecting boundaries. Future work will investigate the spatial dynamics of the Poynting vector to quantify how these boundary conditions govern the local flow and redistribution of near‑field energy.
 
 ## Call for collaboration
 **Invitation**  
