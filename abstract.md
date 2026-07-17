@@ -45,6 +45,9 @@ Mapping geometry‑dependent evanescent fields offers a practical route to study
 **Core objective**  
 Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) measurably alters the effective momentum distribution of evanescent modes by extracting spatial maps of $\kappa(x)$, $d(x)$, and phase.
 
+**Addressing historical ambiguities**  
+The dynamics of evanescent fields, particularly regarding tunneling times and signal propagation, have been subject to significant historical debate. Previous interpretations often relied on specific pulse-shaping conditions that led to assertions of superluminal effects, which have since been challenged by standard Maxwellian treatments. Our platform moves beyond these interpretive debates by implementing a rigorous, spatially-resolved mapping approach. By directly measuring the local momentum redistribution and the energy-momentum balance of the evanescent field, we provide an empirical framework that clarifies these dynamics within a standard classical electrodynamic context.
+
 ---
 
 ## Key hypothesis
