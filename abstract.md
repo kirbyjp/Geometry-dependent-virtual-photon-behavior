@@ -53,7 +53,7 @@ The dynamics of evanescent fields, particularly regarding tunneling times and si
 ## Key hypothesis
 
 **Central claim**  
-Local boundary geometry tunes the effective transverse momentum distribution of evanescent modes; specifically, controlled variations in tilt and curvature produce measurable changes in $\kappa(x)$ and $k_{\perp}(x)$ that can be resolved in the microwave regime.
+Local boundary geometry tunes the effective transverse momentum distribution of evanescent modes. Controlled variations in tilt and curvature produce measurable changes in $\kappa(x)$ and $k_{\perp}(x)$ which, when verified through an aperture-coupled conservation ledger, empirically resolve the historical causal ambiguities surrounding evanescent transport.
 
 **Supporting subclaims**  
 - Geometry can induce spatially varying tunneling times.  
