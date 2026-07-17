@@ -61,10 +61,12 @@ Local boundary geometry tunes the effective transverse momentum distribution of 
 ---
 
 ## Experimental concept
-**Overview**  
-Use microwave wavelengths to create a low‑loss, easily instrumented testbed. Generate evanescent fields at a planar reflecting boundary while introducing a tilted or curved secondary surface into the near field. Scan amplitude and phase along the secondary surface to reconstruct \(\kappa(x)\), \(d(x)\), and \(k_{\perp}(x)\).
 
-**Recommended apparatus**  
+**Overview**  
+Use microwave wavelengths to create a low‑loss, easily instrumented testbed. Generate evanescent fields at a planar reflecting boundary while introducing a tilted or curved secondary surface into the near field. Scan amplitude and phase along the secondary surface to reconstruct $\kappa(x)$, $d(x)$, and $k_{\perp}(x)$.
+
+**Recommended apparatus**
+
 - **Source:** Vector network analyzer (VNA) with microwave horn or waveguide feed.  
 - **Primary reflecting boundary:** Metal plate or high‑conductivity mirror.  
 - **Secondary surface:** Perspex or PTFE prism, machined tilt stage or curved segment.  
