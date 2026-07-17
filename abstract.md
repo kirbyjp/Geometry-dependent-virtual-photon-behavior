@@ -38,11 +38,12 @@ $$k_{\perp}(x) = i \kappa(x)$$
 ---
 
 ## Motivation
+
 **Why this project matters**  
 Mapping geometry‑dependent evanescent fields offers a practical route to test how macroscopic boundary conditions influence near‑field mode structure and off‑shell photon exchange. Positive results would establish a reproducible, low‑cost experimental analog for aspects of Casimir physics and open new avenues for controlled studies of boundary‑condition QED phenomena without requiring nanoscale fabrication, high vacuum, or cryogenics.
 
 **Core objective**  
-Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) measurably alters the effective momentum distribution of evanescent modes by extracting spatial maps of \(\kappa(x)\), \(d(x)\), and phase.
+Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) measurably alters the effective momentum distribution of evanescent modes by extracting spatial maps of $\kappa(x)$, $d(x)$, and phase.
 
 ---
 
