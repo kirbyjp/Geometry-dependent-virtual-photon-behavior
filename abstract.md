@@ -117,6 +117,8 @@ When scanning amplitude and phase across a tilted or curved surface, the resulti
 **Advanced exploration: Aperture‑coupled detection**  
 To further probe the interaction between boundary geometry and field confinement, one may introduce a sub‑wavelength void or aperture at the primary boundary’s apex. By placing a detector directly behind this aperture, one can quantify the "leakage" of the evanescent field into the far field to determine the governing relationship between boundary geometry and the conversion of off‑shell near‑field energy into propagating modes. This configuration isolates how geometric defects redirect local near‑field momentum, providing a direct metric for how boundary perturbations modulate off‑shell photon exchange.
 
+![Fig 2: Experimental configuration for evanescent mapping](./images/fig2.png)
+
 ---
 
 ## How to reproduce
