@@ -1,2 +1,185 @@
-# Geometry-dependent-virtual-photon-behavior
-Geometry‑dependent virtual photon behavior proposes a low‑cost microwave platform to map how macroscopic boundary geometry — tilt, curvature, and finite aperture — alters evanescent decay  𝜅 ( 𝑥 )  and lateral Goos–Hänchen shifts  𝑑 ( 𝑥 ) . Accessible hardware enables Casimir‑analog experiments without vacuum or cryogenics.
+# Geometry‑dependent virtual photon behavior
+
+**Title**  
+Geometry‑dependent virtual photon behavior
+
+**Authors**  
+John Kirby — Independent Researcher
+
+**Date**  
+2026-07-16
+
+**Comments**  
+Short conceptual proposal and experimental call for microwave‑scale mapping of evanescent fields; suitable for arXiv submission as a research note.
+
+**Subjects**  
+physics.optics; quant-ph
+
+---
+
+**Abstract**  
+We propose a focused experimental program to test whether the momentum distribution of virtual photons associated with evanescent electromagnetic modes can be tuned by macroscopic boundary geometry. Prior work on tunneling and Goos–Hänchen phenomena highlights several interrelated effects; here we synthesize them into a single, testable framework and place **geometry‑dependent virtual‑photon momentum** at the center of the investigation. Specifically, we identify six motivating phenomena: (1) the tunability of virtual‑photon momentum distributions via macroscopic geometry, (2) curvature‑dependent confinement analogous to Casimir boundary conditions, (3) interference structures arising from overlapping evanescent fields, (4) geometry‑driven redistribution of energy and momentum at reflective interfaces, (5) spatially varying tunneling times induced by geometric gradients, and (6) the feasibility of directly mapping local decay constants $\kappa(x)$ and lateral shifts $d(x)$ in the microwave regime. We argue that microwave‑scale platforms provide accessible testbeds for spatially resolved measurements. By incorporating aperture‑coupled detection to provide an empirical verification of causal energy flow, our framework bridges established antenna‑theory techniques with foundational evanescent‑field studies. We therefore call for systematic experiments that scan amplitude, phase, and lateral shift across controlled interfaces; such data will clarify the relationship between macroscopic geometry and near‑field virtual‑photon behavior and may provide a macroscopic analog for aspects of vacuum‑mode confinement.
+
+---
+
+## Key expressions
+
+We collect the principal relations used throughout this work.
+
+**Evanescent decay law**
+$$E(x) = E_0 e^{-\kappa(x) x}$$
+
+**Position dependent lateral shift**
+$$d = d(x)$$
+
+**Local transverse momentum (effective)**
+$$k_{\perp}(x) = i \kappa(x)$$
+
+---
+
+## Motivation
+
+**Why this project matters**  
+Mapping geometry‑dependent evanescent fields offers a practical route to study how macroscopic boundary conditions influence near‑field mode structure and off‑shell photon exchange. Traditional Casimir experiments require nanometer‑scale separations, ultra‑flat surfaces, cryogenic stability, high vacuum, and precision force metrology, making systematic exploration of geometry effects difficult and expensive. In contrast, the present approach uses centimeter‑scale microwave wavelengths, macroscopic tilts and curvatures, and direct amplitude‑and‑phase mapping rather than force detection. By measuring how geometry modulates the local decay constant $\kappa(x)$ and the associated transverse momentum $k_{\perp}(x)$, this platform enables controlled tests of momentum redistribution under accessible laboratory conditions. Positive results would establish a reproducible, low‑cost macroscopic analog for boundary‑condition‑dependent QED phenomena and broaden experimental access to Casimir‑related physics without specialized instrumentation.
+
+**Core objective**  
+Demonstrate whether macroscopic geometry (tilt, curvature, finite aperture) measurably alters the effective momentum distribution of evanescent modes by extracting spatial maps of $\kappa(x)$, $d(x)$, and phase.
+
+**Addressing historical ambiguities**  
+The dynamics of evanescent fields, particularly regarding tunneling times and signal propagation, have been subject to significant historical debate. Previous interpretations often relied on specific pulse‑shaping conditions that led to assertions of superluminal effects, which have since been challenged by standard Maxwellian treatments. Our platform moves beyond these interpretive debates by implementing a rigorous, spatially‑resolved mapping approach. By directly measuring local momentum redistribution and constructing a conservation ledger—including aperture‑coupled leakage—that accounts for both near‑field confinement and far‑field energy flow, we provide an empirical framework that resolves these ambiguities within a standard classical electrodynamic context.
+
+---
+
+## Key hypothesis
+
+**Central claim**  
+Local boundary geometry tunes the effective transverse momentum distribution of evanescent modes. Controlled variations in tilt and curvature produce measurable changes in $\kappa(x)$ and $k_{\perp}(x)$ which, when verified through an aperture-coupled conservation ledger, empirically resolve the historical causal ambiguities surrounding evanescent transport.
+
+**Supporting subclaims**  
+- Geometry can induce spatially varying tunneling times.  
+- Curvature can act as a macroscopic analog to Casimir confinement.  
+- Overlapping evanescent fields can produce interference structures that reveal local phase and momentum content.  
+- Energy and momentum redistribution along a slope or curved surface are measurable via amplitude, phase, and lateral shift mapping.
+
+---
+
+## Experimental concept
+
+**Overview**  
+Use microwave wavelengths to create a low‑loss, easily instrumented testbed. Generate evanescent fields at a planar reflecting boundary while introducing a tilted or curved secondary surface into the near field. Scan amplitude and phase along the secondary surface to reconstruct $\kappa(x)$, $d(x)$, and $k_{\perp}(x)$.
+
+**Recommended apparatus**
+
+- **Source:** Vector network analyzer (VNA) with microwave horn or waveguide feed.  
+- **Primary reflecting boundary:** Metal plate or high‑conductivity mirror.  
+- **Secondary surface:** Perspex or PTFE prism, machined tilt stage or curved segment.  
+- **Probe:** Near‑field microwave probe or small loop antenna on a precision translation stage.  
+- **Control:** Motorized linear stage for scanning with submillimeter resolution; gap control via micrometer or piezo stage.  
+- **Environment:** Ambient lab conditions; shielding recommended to reduce stray reflections.
+
+---
+
+## Methods and measurement plan
+
+**Measurement goals**  
+- Extract spatial maps of amplitude $E(x)$ and phase $\phi(x)$.  
+- Fit amplitude to the evanescent decay law to obtain $\kappa(x)$.  
+- Measure lateral Goos–Hänchen shift $d(x)$ by comparing reflected beam centroid positions or phase fronts.  
+- Reconstruct effective transverse momentum $k_{\perp}(x)=i\kappa(x)$.
+
+**Suggested parameters**  
+- **Frequency band:** 5–20 GHz (wavelengths 60–15 mm) to balance spatial resolution and manageable probe size.  
+- **Probe resolution:** step size 0.5–2 mm depending on frequency.  
+- **Gap control:** ability to set and measure gaps from 0.1 mm to several mm.  
+- **Materials:** Perspex or PTFE for low loss; metal mirror for reflection.  
+- **Data acquisition:** S21 amplitude and phase from VNA at each scan point; average multiple sweeps to improve SNR.
+
+**Data analysis**  
+- Fit $E(x)$ to the function $E(x) = E_0 e^{-\kappa(x)x}$ locally to extract $\kappa(x)$.  
+- Compute $d(x)$ from lateral displacement of phase contours or reflected beam centroid.  
+- Map $k_{\perp}(x)$ and compare against geometric predictions from local incidence angle and boundary curvature.
+
+---
+
+## Geometry descriptions
+
+**Composite geometries**  
+The study involves three interface configurations—flat, tilted, and curved—each producing distinct evanescent‑field behavior. A flat interface provides a uniform decay profile, while a tilted interface introduces a spatial gradient in the local incidence angle. A curved interface further modifies the boundary conditions by varying curvature along the surface, creating position‑dependent changes in the evanescent penetration depth and lateral shift.
+
+**Tilted interface behavior**  
+A tilted secondary surface placed in the near field (see Fig. 1) generates a spatially varying evanescent field. By scanning the region with a near-field probe or analogous field-sampling mechanism, one can resolve the local amplitude and phase profiles. As the local incidence angle changes along the tilt, the lateral Goos–Hänchen shift $d(x)$ varies correspondingly. This configuration highlights how geometry directly influences the redistribution of momentum and the effective decay constant $\kappa(x)$.
+
+![Fig 1: Experimental configuration for evanescent mapping](./images/fig1.png)
+
+**Curved interface behavior**  
+A curved secondary surface introduces a non‑linear spatial gradient in the local incidence angle. Unlike the constant gradient of a tilted surface, curvature varies the local boundary condition continuously along the interface. This allows for the study of focal effects and position‑dependent evanescent penetration depths, providing a more complex analog to Casimir confinement in non‑planar geometries.
+
+**Example measurement pattern**  
+When scanning amplitude and phase across a tilted or curved surface, the resulting data typically show a non‑uniform decay profile. By fitting the measured amplitude to $E(x) = E_0 e^{-\kappa(x)x}$ at each position, one obtains a spatial map of $\kappa(x)$. These maps reveal how geometric variations modulate the evanescent field and the effective transverse momentum $k_{\perp}(x)$.
+
+**Advanced exploration: Aperture‑coupled detection**  
+To further probe the interaction between boundary geometry and field confinement, one may introduce a sub‑wavelength void or aperture at the primary boundary’s apex. By placing a detector directly behind this aperture, one can quantify the "leakage" of the evanescent field into the far field to determine the governing relationship between boundary geometry and the conversion of off‑shell near‑field energy into propagating modes. This configuration isolates how geometric defects redirect local near‑field momentum, providing a direct metric for how boundary perturbations modulate off‑shell photon exchange.
+
+![Fig 2: Experimental configuration for evanescent mapping](./images/fig2.png)
+
+---
+
+## How to reproduce
+
+**Quick start checklist**  
+1. Assemble the field source/emitter, primary reflecting boundary, secondary surface, and necessary translation stages.  
+2. Establish a system baseline by performing background subtraction in the absence of the secondary surface.  
+3. Position the secondary surface in the near field and conduct a coarse scan to map the evanescent region.  
+4. Perform fine scans of amplitude and phase across the tilted or curved surface using a high-resolution field-sampling probe.  
+5. Fit local amplitude to extract $\kappa(x)$; compute $d(x)$ from phase or centroid analysis.  
+6. Optionally, introduce an aperture at the primary boundary’s apex and position a detector behind it to measure far-field leakage as a function of boundary geometry.
+
+---
+
+## Data and analysis
+
+**Expected outputs**  
+- Spatial maps of amplitude and phase.  
+- Local fits producing $\kappa(x)$ as a function of position.  
+- Plots of $d(x)$ and comparison to geometric models.  
+- Derived $k_{\perp}(x)$ maps.  
+- Leakage intensity versus aperture geometry and detector position.  
+- Derived conversion efficiency from near-field energy to propagating modes.
+
+**Analysis recommendations**  
+- Utilize complex-valued field data to preserve both amplitude and phase information.  
+- Apply signal processing techniques (e.g., windowing, averaging) to mitigate environmental noise and unwanted reflections.  
+- Calibrate detector response and perform background subtraction with the aperture present but the secondary surface removed, to isolate geometry-induced leakage.  
+- Propagate uncertainties from the decay fit through to the final $k_{\perp}(x)$ reconstruction to establish the confidence interval of the momentum maps.  
+- Include the aperture-coupled power in the local energy and momentum balance assessment to ensure that near-field confinement, lateral redistribution, and far-field leakage form a consistent conservation ledger.  
+- Share raw and processed data to facilitate reproducibility.
+
+**Decay constant as diagnostic for momentum**
+
+Fit $E(x)$ locally to extract $\kappa(x)$, which serves as the experimental proxy for the effective transverse momentum $k_{\perp}(x)$. This framing keeps $\kappa(x)$ central as the measurable quantity while emphasizing that its role is diagnostic rather than the final objective, aligning the measurement strategy with the broader goal of characterizing geometry‑driven momentum redistribution.
+
+---
+
+**Conservation and energy flow**
+
+Geometry‑induced momentum redistribution necessitates a detailed account of how energy and momentum are conserved within the near field. Rather than suggesting a violation, this redistribution underscores the need to map the exchange of energy between the evanescent modes and the reflecting boundaries. Future work will investigate the spatial dynamics of the Poynting vector to quantify how these boundary conditions govern the local flow and redistribution of near‑field energy.
+
+## Call for collaboration
+**Invitation**  
+This project is intentionally low cost and accessible. Contributions of experimental data, alternative geometries, and theoretical modeling are welcome. If you run experiments, please upload processed maps and a short methods note to the repository so others can compare results.
+
+**Contact and citation**  
+If you use this work, cite as: John Kirby, “Geometry‑dependent virtual photon behavior,” 2026. Include arXiv or DOI when available.
+
+---
+
+## License and metadata
+
+**License**  
+MIT License recommended.
+
+**Keywords**
+Goos–Hänchen shift, Casimir-analog, near-field optics, boundary-condition QED, momentum redistribution, virtual-photon distribution
+
+---
+
