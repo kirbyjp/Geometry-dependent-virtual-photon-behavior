@@ -179,7 +179,5 @@ If you use this work, cite as: John Kirby, “Geometry‑dependent virtual photo
 MIT License recommended.
 
 **Keywords**
-Goos–Hänchen shift, Casimir-analog, near-field optics, boundary-condition QED, momentum redistribution, virtual-photon distribution
-
----
+Goos–Hänchen shift, Casimir-analog, near-field optics, boundary-condition QED, momentum redistribution, causal energy flow, evanescent-wave dynamics
 
