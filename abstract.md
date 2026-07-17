@@ -128,7 +128,8 @@ To further probe the interaction between boundary geometry and field confinement
 2. Establish a system baseline by performing background subtraction in the absence of the secondary surface.  
 3. Position the secondary surface in the near field and conduct a coarse scan to map the evanescent region.  
 4. Perform fine scans of amplitude and phase across the tilted or curved surface using a high-resolution field-sampling probe.  
-5. Fit local amplitude to extract $\kappa(x)$; compute $d(x)$ from phase or centroid analysis.
+5. Fit local amplitude to extract $\kappa(x)$; compute $d(x)$ from phase or centroid analysis.  
+6. Optionally, introduce an aperture at the primary boundary’s apex and position a detector behind it to measure far-field leakage as a function of boundary geometry.
 
 ---
 
@@ -138,13 +139,16 @@ To further probe the interaction between boundary geometry and field confinement
 - Spatial maps of amplitude and phase.  
 - Local fits producing $\kappa(x)$ as a function of position.  
 - Plots of $d(x)$ and comparison to geometric models.  
-- Derived $k_{\perp}(x)$ maps.
+- Derived $k_{\perp}(x)$ maps.  
+- Leakage intensity versus aperture geometry and detector position.  
+- Derived conversion efficiency from near-field energy to propagating modes.
 
 **Analysis recommendations**  
 - Utilize complex-valued field data to preserve both amplitude and phase information.  
 - Apply signal processing techniques (e.g., windowing, averaging) to mitigate environmental noise and unwanted reflections.  
+- Calibrate detector response and perform background subtraction with the aperture present but the secondary surface removed, to isolate geometry-induced leakage.  
 - Propagate uncertainties from the decay fit through to the final $k_{\perp}(x)$ reconstruction to establish the confidence interval of the momentum maps.  
-- Implement a local energy and momentum balance assessment to verify that observations are consistent with conservation laws within the interaction volume.  
+- Include the aperture-coupled power in the local energy and momentum balance assessment to ensure that near-field confinement, lateral redistribution, and far-field leakage form a consistent conservation ledger.  
 - Share raw and processed data to facilitate reproducibility.
 
 **Decay constant as diagnostic for momentum**
