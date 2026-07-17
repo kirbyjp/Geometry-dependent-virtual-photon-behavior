@@ -26,20 +26,14 @@ We propose a focused experimental program to test whether the momentum distribut
 
 We collect the principal relations used throughout this work.
 
-**Evanescent decay law**  
-$$
-E(x) = E_0 e^{-\kappa(x)\, x}
-$$
+**Evanescent decay law**
+$$E(x) = E_0 e^{-\kappa(x) x}$$
 
-**Position dependent lateral shift**  
-$$
-d = d(x)
-$$
+**Position dependent lateral shift**
+$$d = d(x)$$
 
-**Local transverse momentum (effective)**  
-$$
-k_{\perp}(x) = i\,\kappa(x)
-$$
+**Local transverse momentum (effective)**
+$$k_{\perp}(x) = i \kappa(x)$$
 
 ---
 
