@@ -134,8 +134,6 @@ To further probe the interaction between boundary geometry and field confinement
 
 ## Data and analysis
 
-**Data and analysis**
-
 **Expected outputs**  
 - Spatial maps of amplitude and phase.  
 - Local fits producing $\kappa(x)$ as a function of position.  
