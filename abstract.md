@@ -77,11 +77,12 @@ Use microwave wavelengths to create a low‑loss, easily instrumented testbed. G
 ---
 
 ## Methods and measurement plan
+
 **Measurement goals**  
-- Extract spatial maps of amplitude \(E(x)\) and phase \(\phi(x)\).  
-- Fit amplitude to the evanescent decay law to obtain \(\kappa(x)\).  
-- Measure lateral Goos–Hänchen shift \(d(x)\) by comparing reflected beam centroid positions or phase fronts.  
-- Reconstruct effective transverse momentum \(k_{\perp}(x)=i\kappa(x)\).
+- Extract spatial maps of amplitude $E(x)$ and phase $\phi(x)$.  
+- Fit amplitude to the evanescent decay law to obtain $\kappa(x)$.  
+- Measure lateral Goos–Hänchen shift $d(x)$ by comparing reflected beam centroid positions or phase fronts.  
+- Reconstruct effective transverse momentum $k_{\perp}(x)=i\kappa(x)$.
 
 **Suggested parameters**  
 - **Frequency band:** 5–20 GHz (wavelengths 60–15 mm) to balance spatial resolution and manageable probe size.  
@@ -91,9 +92,9 @@ Use microwave wavelengths to create a low‑loss, easily instrumented testbed. G
 - **Data acquisition:** S21 amplitude and phase from VNA at each scan point; average multiple sweeps to improve SNR.
 
 **Data analysis**  
-- Fit \(E(x)\) to \(E_0 e^{-\kappa(x)x}\) locally to extract \(\kappa(x)\).  
-- Compute \(d(x)\) from lateral displacement of phase contours or reflected beam centroid.  
-- Map \(k_{\perp}(x)\) and compare against geometric predictions from local incidence angle and boundary curvature.
+- Fit $E(x)$ to the function $E(x) = E_0 e^{-\kappa(x)x}$ locally to extract $\kappa(x)$.  
+- Compute $d(x)$ from lateral displacement of phase contours or reflected beam centroid.  
+- Map $k_{\perp}(x)$ and compare against geometric predictions from local incidence angle and boundary curvature.
 
 ---
 
