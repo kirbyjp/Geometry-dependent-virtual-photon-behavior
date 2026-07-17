@@ -108,8 +108,14 @@ A tilted secondary surface placed in the near field (see Fig. 1) generates a spa
 
 ![Fig 1: Experimental configuration for evanescent mapping](./images/fig1.png)
 
+**Curved interface behavior**  
+A curved secondary surface introduces a non‑linear spatial gradient in the local incidence angle. Unlike the constant gradient of a tilted surface, curvature varies the local boundary condition continuously along the interface. This allows for the study of focal effects and position‑dependent evanescent penetration depths, providing a more complex analog to Casimir confinement in non‑planar geometries.
+
 **Example measurement pattern**  
 When scanning amplitude and phase across a tilted or curved surface, the resulting data typically show a non‑uniform decay profile. By fitting the measured amplitude to $E(x) = E_0 e^{-\kappa(x)x}$ at each position, one obtains a spatial map of $\kappa(x)$. These maps reveal how geometric variations modulate the evanescent field and the effective transverse momentum $k_{\perp}(x)$.
+
+**Advanced exploration: Aperture‑coupled detection**  
+To further probe the interaction between boundary geometry and field confinement, one may introduce a sub‑wavelength void or aperture at the primary boundary’s apex. By placing a detector directly behind this aperture, one can quantify the "leakage" of the evanescent field into the far field to determine the governing relationship between boundary geometry and the conversion of off‑shell near‑field energy into propagating modes. This configuration isolates how geometric defects redirect local near‑field momentum, providing a direct metric for how boundary perturbations modulate off‑shell photon exchange.
 
 ---
 
