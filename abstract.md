@@ -160,8 +160,8 @@ If you use this work, cite as: John Kirby, “Geometry‑dependent virtual photo
 **License**  
 MIT License recommended.
 
-**Keywords**  
-evanescent, Goos–Hänchen, Casimir‑analog, microwave, near‑field, virtual‑photon, boundary‑conditions
+**Keywords**
+Goos–Hänchen shift, Casimir-analog, near-field optics, boundary-condition QED, momentum redistribution, virtual-photon distribution
 
 ---
 
