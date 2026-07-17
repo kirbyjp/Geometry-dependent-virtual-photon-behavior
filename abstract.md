@@ -4,7 +4,7 @@
 Geometry‑dependent virtual photon behavior
 
 **Authors**  
-John [LastName] — Independent Researcher
+John Kirby — Independent Researcher
 
 **Date**  
 2026-07-16
